@@ -1,0 +1,67 @@
+body {
+  background-color: #250043;
+  color: #f3f3f3;
+}
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: #5246ad;
+}
+
+::placeholder {
+  color: #dadada;
+  opacity: 1;
+}
+.form-field {
+  display: block;
+  padding: 8px 16px;
+  line-height: 25px;
+  font-size: 22px;
+  font-weight: 500;
+  font-family: inherit;
+  border-radius: 6px;
+  color: #2c0051;
+  border: 1px solid #cdd9ed;
+  background: #fff;
+  transition: border 0.3s ease;
+  margin-top: 12px;
+  margin-bottom: 36px;
+}
+
+.button-20 {
+  background-color: #5246ad;
+  background-image: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.15),
+    rgba(255, 255, 255, 0)
+  );
+  border: 1px solid #5246ad;
+  border-radius: 1rem;
+  box-shadow: rgba(255, 255, 255, 0.15) 0 1px 0 inset,
+    rgba(46, 54, 80, 0.075) 0 1px 1px;
+  color: #f0e3ff;
+  cursor: pointer;
+  font-family: Inter, sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.5;
+  padding: 0.5rem 1rem;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.button-20:hover {
+  background-color: #3e3583;
+  border-color: #3e3583;
+}
+
+.button-20:active {
+  background-color: #292356;
+  background-image: none;
+  border-color: #292356;
+  color: #b0a8c0;
+  box-shadow: rgba(46, 54, 80, 0.125) 0 3px 5px inset;
+}
