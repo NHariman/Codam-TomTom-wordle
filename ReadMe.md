@@ -4,7 +4,7 @@ A simplified version of the popular game [Wordle](https://www.nytimes.com/games/
 
 ## How to run it
 
-Navigate to [https://5jighr.csb.app/](https://5jighr.csb.app/) to play the game in terminal, or open it in CodeSandbox to view the code. Game can be played as usual, enter a 5 letter word and it will tell you how close you are to guessing it. You will have 6 tries to guess the word. 
+Navigate to [https://codesandbox.io/s/github/NHariman/sandbox-of-wordle](https://codesandbox.io/s/github/NHariman/sandbox-of-wordle) to play the game in terminal, or open it in CodeSandbox to view the code. Game can be played as usual, enter a 5 letter word and it will tell you how close you are to guessing it. You will have 6 tries to guess the word. 
 Refreshing the page resets the game.
 - green box: right letter and right position
 - orange box: right letter wrong position
