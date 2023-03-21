@@ -18,7 +18,6 @@ import {
   so it does not continuously update.
 */
 const wordleOfTheSession = words[Math.floor(Math.random() * 5757)];
-console.log("wordle answer: ", wordleOfTheSession);
 
 export default function App() {
   const [guess, setGuess] = useState("");
@@ -33,7 +32,7 @@ export default function App() {
       setMessage("You've already won! Refresh for a new word.");
       return;
     }
-    if (guessArray.length > 4) {
+    if (guessArray.length > 5) {
       setMessage(
         "Too many guesses! You lose, the word was: " +
           wordleOfTheSession +
