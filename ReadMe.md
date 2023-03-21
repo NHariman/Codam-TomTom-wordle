@@ -10,15 +10,15 @@ Refreshing the page resets the game.
 - orange box: right letter wrong position
 - grey box: wrong letter
 
-example of winning the game:
+### Example of winning the game:
 
 https://user-images.githubusercontent.com/25151348/226669244-3f6d2c33-3b1b-4888-9cbd-5c5851405448.mov
 
-example of losing the game:
+### Example of losing the game:
 
 https://user-images.githubusercontent.com/25151348/226670711-c6579233-e75f-4286-b5ca-93ff7a43b286.mov
 
-edge case handling:
+### Edge case handling:
 
 https://user-images.githubusercontent.com/25151348/226671524-f96075f7-7151-44ee-9453-d8caaee2e3cd.mov
 
